@@ -12,3 +12,7 @@ class CustomUserAdmin(UserAdmin):
     list_display = ['email', 'username',]
 
 admin.site.register(CustomUser, CustomUserAdmin)
+
+admin.site.site_title = "DELETE_ME"
+admin.site.site_header = "DELETE ME"
+admin.site.index_title = "DELETE ME DASHBOARD"
